@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8sbGj17IYkCwKgcey51eJQ8/5E484S/VAFZDcF9in9lSefrWafltz7b24jtsK/MYMozbNubEoKgCWgpv/ish8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\shash\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
