@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shash\\Documents\\Software Development\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj": {}
+    "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shash\\Documents\\Software Development\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj": {
+    "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shash\\Documents\\Software Development\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj",
+        "projectUniqueName": "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj",
         "projectName": "eCommerce-Website-Backend-ASP.NET",
-        "projectPath": "C:\\Users\\shash\\Documents\\Software Development\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj",
+        "projectPath": "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET.csproj",
         "packagesPath": "C:\\Users\\shash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shash\\Documents\\Software Development\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\obj\\",
+        "outputPath": "C:\\Users\\shash\\Documents\\GitHub\\-eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\eCommerce-Website-Backend-ASP.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shash\\AppData\\Roaming\\NuGet\\NuGet.Config",
