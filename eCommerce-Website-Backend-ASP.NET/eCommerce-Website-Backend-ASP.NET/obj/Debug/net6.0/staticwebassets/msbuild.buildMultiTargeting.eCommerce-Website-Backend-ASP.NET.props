@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\eCommerce-Website-Backend-ASP.NET.props" />
+</Project>
