@@ -1,0 +1,526 @@
+{
+	"info": {
+		"_postman_id": "d62f4859-f624-4cdd-ac59-00202e8dd128",
+		"name": "ASSIGNMENT3_GROUP8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19235707"
+	},
+	"item": [
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "GET REQUEST",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST REQUEST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"fName\": \"string\",\r\n  \"lName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"pass\": \"string\",\r\n  \"address\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Users",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET REQUEST WITH ID",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PUT REQUEST WITH ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"fName\": \"string\",\r\n  \"lName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"pass\": \"string\",\r\n  \"address\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Users/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE REQUEST WITH ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Users/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PRODUCTS",
+			"item": [
+				{
+					"name": "GET REQUEST",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST REQUEST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"shashank\",\r\n  \"description\": \"string\",\r\n  \"details\": \"string\",\r\n  \"image\": \"string\",\r\n  \"price\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET WITH ID",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PUT WITH ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 7,\r\n  \"name\": \"string\",\r\n  \"description\": \"string\",\r\n  \"details\": \"string\",\r\n  \"image\": \"string\",\r\n  \"price\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Products/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Products",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE WITH ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Products/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Products",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "COMMENT",
+			"item": [
+				{
+					"name": "GET COMMNETS",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST COMMENT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"productId\": 0,\r\n  \"email\": \"string\",\r\n  \"rating\": 0,\r\n  \"review\": \"string\",\r\n  \"image\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/api/Comment",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"api",
+								"Comment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET COMMENT WITH ID",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PUT UPDATE COMMENT WITH ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 3,\r\n  \"productId\": 0,\r\n  \"email\": \"stringcomment\",\r\n  \"rating\": 0,\r\n  \"review\": \"string\",\r\n  \"image\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/api/Comment/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"api",
+								"Comment",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE COMMENT WITH ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/api/Comment/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"api",
+								"Comment",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ORDERS",
+			"item": [
+				{
+					"name": "POST ORDERS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"productName\": \"string\",\r\n  \"productId\": 0,\r\n  \"name\": \"string\",\r\n  \"email\": \"string\",\r\n  \"total\": 0,\r\n  \"quantity\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Orders",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL ORDERS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Orders",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ORDERS WITH ID",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "PUT REQUEST FOR ORDERS",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"productName\": \"string\",\r\n  \"productId\": 0,\r\n  \"name\": \"string\",\r\n  \"email\": \"string\",\r\n  \"total\": 3,\r\n  \"quantity\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Orders/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Orders",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE ORDERS",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Orders/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Orders",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CART",
+			"item": [
+				{
+					"name": "GET CART ITEMS",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST CART ITEMS",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 2,\r\n  \"productId\": 2,\r\n  \"name\": \"123\",\r\n  \"price\": 0,\r\n  \"image\": \"13\",\r\n  \"email\": \"123\",\r\n  \"quantity\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Carts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET CART WITH ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Carts/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Carts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE WITH ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n  \"productId\": 0,\r\n  \"name\": \"str123ing\",\r\n  \"price\": 0,\r\n  \"image\": \"str123ing\",\r\n  \"email\": \"string\",\r\n  \"quantity\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7236/Carts/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Carts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE WITH ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7236/Carts/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7236",
+							"path": [
+								"Carts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
